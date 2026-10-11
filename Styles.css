@@ -1,0 +1,181 @@
+#name {
+    text-align: center;
+    background-color: orange;
+    background-position: 200% 100%;
+    color: white;
+    border-radius: 10px;
+    font-family: Arial Black;
+    font-weight: 20px;
+    width: 700px;
+    align-items: center;
+    margin-left: 250px;
+    transition: 0.5s ease-in;
+    transform: 0.5s ease;
+    box-shadow: 3px 2px 8px black;
+    padding: 5px;
+}
+#name:hover {
+background-position: 100% 0%;
+background: linear-gradient(90deg, darkblue,blue,skyblue);
+}
+body {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Georgia'
+}
+.mission-vision {
+    display: flex;
+    gap: 20px;
+}
+#mission {
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    background-position: 200% 100% ;
+    padding: 3px 5px;
+    flex: 1;
+    min-width: 0;
+    box-shadow: 3px 2px 5px;
+    transition: 0.5s ease-in;
+    gap: 50px;
+}
+#mission:hover {
+background-color: rgba(8, 8, 95, 0.795);
+background: linear-gradient(135deg, rgb(185, 5, 235), rgba(12, 12, 222, 0.783), rgb(1, 1, 68)) ;
+background-position:100% 0% ;
+color: aliceblue;
+}
+#bulb {
+    border-radius: 120px;
+    width: 60px;
+    height: 60px;
+}
+
+#vision {
+     border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 3px 5px;
+    flex: 1;
+    min-width: 0;
+    background-position: 200% 100%;
+    box-shadow: 3px 2px 5px;
+    gap: 50px;
+    transition: 0.5s ease-in;
+}
+#vision:hover {
+background: linear-gradient(135deg, rgb(185, 5, 235), rgba(12, 12, 222, 0.783), rgb(1, 1, 68)) ;
+background-position:100% 0% ;
+color: aliceblue;
+}
+#plane {
+    border-radius: 120px;
+    width: 60px;
+    height: 60px;
+}
+
+@media (max-width: 600px) {
+    .mission-vision {
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+#submit {
+    padding: 5px;
+    border-radius: 10px;
+    background-size: 200% 100%;
+    transform: 1s;
+    transition: 0.5s;
+    width: 80px;
+   
+    
+}
+#submit:hover {
+    background: linear-gradient(135deg, #b207eb, #5619f0, #1f0367);
+background-position: 100% 0%;
+box-shadow:  1px 2px  #1f0367;
+
+}
+#contact-info {
+    background-color: aliceblue;
+    border: whitesmoke;
+    border-radius: 20px;
+    align-items: left;
+    text-align: left;
+    text-wrap-mode: wrap;
+    padding: 40px;
+   
+   
+}
+#contact-info:hover {
+    box-shadow: 3px 2px 8px darkblue;
+    cursor: pointer;
+}
+#Review {
+     background-color: aliceblue;
+    border: whitesmoke;
+    border-radius: 20px;
+    align-items: left;
+    text-align: left;
+    text-wrap-mode: wrap;
+    padding: 40px;
+
+}
+#Review:hover {
+     box-shadow: 3px 2px 8px darkblue;
+    cursor: pointer;
+}
+.nav-link {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 100px;
+    min-height: 36px;
+    text-decoration: none;
+    background-color: aliceblue;
+    background-position: 200% 100%;
+    transition: 1s;
+}
+
+.nav-button:hover {
+    box-shadow: 3px 2px 8px darkblue;
+    background-position: 100% 0%;
+background: linear-gradient(90deg, darkblue,blue,skyblue);
+color: aliceblue;
+
+}
+
+.course-columns {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+    align-items: start;
+}
+#Courses {
+    border: whitesmoke;
+    border-radius: 20px;
+    align-items: left;
+    text-align: left;
+    text-wrap-mode: wrap;
+    box-shadow: 3px 2px 8px darkblue;
+    padding: 40px;
+}
+#Courses:hover {
+    cursor: pointer;
+}
