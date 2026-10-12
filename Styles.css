@@ -151,6 +151,7 @@ box-shadow:  1px 2px  #1f0367;
     background-color: aliceblue;
     background-position: 200% 100%;
     transition: 1s;
+    padding: 3px;
 }
 
 .nav-button:hover {
@@ -174,7 +175,7 @@ color: aliceblue;
     text-align: left;
     text-wrap-mode: wrap;
     box-shadow: 3px 2px 8px darkblue;
-    padding: 40px;
+    padding: 60px;
 }
 #Courses:hover {
     cursor: pointer;
