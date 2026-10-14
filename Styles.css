@@ -5,14 +5,17 @@
     color: white;
     border-radius: 10px;
     font-family: Arial Black;
-    font-weight: 20px;
-    width: 700px;
+    font-weight: 700;
+    width: 100%;
+    max-width: 700px;
     align-items: center;
-    margin-left: 250px;
+    margin: 0 auto;
+    box-sizing: border-box;  /*padding no longer adds to the width*/
     transition: 0.5s ease-in;
     transform: 0.5s ease;
     box-shadow: 3px 2px 8px black;
     padding: 5px;
+    font-size: clamp(1.1rem,5vw,2rem); /*text shrinks on phones,caps and laptops*/
 }
 #name:hover {
 background-position: 100% 0%;
@@ -20,7 +23,7 @@ background: linear-gradient(90deg, darkblue,blue,skyblue);
 }
 body {
     margin-left: 30px;
-    margin-top: 10px;
+    margin-top: 20px;
     font-family: 'Georgia'
 }
 .mission-vision {
@@ -30,7 +33,7 @@ body {
 #mission {
     border-radius: 20px;
     align-items: center;
-    text-align: center;
+    text-align: center; 
     background-position: 200% 100% ;
     padding: 3px 5px;
     flex: 1;
@@ -132,7 +135,7 @@ box-shadow:  1px 2px  #1f0367;
 
 .nav-link ul {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;  /*keeps everything in one row*/
     justify-content: center;
     gap: 10px;
     list-style: none;
@@ -175,8 +178,20 @@ color: aliceblue;
     text-align: left;
     text-wrap-mode: wrap;
     box-shadow: 3px 2px 8px darkblue;
-    padding: 60px;
+    padding: 10px;
 }
+.course-columns {
+    gap: 6px;
+}
+.course-columns ul,
+.course-columns ol {
+    padding-left: 14px;
+    margin: 4px 0;
+}
+
 #Courses:hover {
     cursor: pointer;
+}
+#note {
+    font-family:courgette,sans-serif ;
 }
